@@ -23,10 +23,28 @@ How can an ecommerce marketplace use historical order, customer, product, paymen
 The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
 - Original source: <https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce>
+- Local data folder included in this repository: [`data/`](data/)
 
 The dataset includes approximately 100,000 ecommerce orders from Brazil between 2016 and 2018, with related tables for customers, orders, order items, payments, products, sellers, geolocation, and reviews.
 
-The raw CSV files are not required in the GitHub submission if repository size is a concern. To rerun the notebook locally, download the Olist CSV files from Kaggle and place them in a local `data/` folder at the project root.
+The raw CSV files are included so another reviewer can clone the repository and rerun the notebook without manually downloading the dataset.
+
+## How to Run
+
+1. Clone the repository.
+2. Install dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+3. Open the main notebook:
+
+```bash
+jupyter notebook Olist_EDA_Initial_Report.ipynb
+```
+
+4. Run all cells. The notebook reads from `data/` and writes visual outputs to `outputs/`.
 
 ## Methodology
 
@@ -161,8 +179,10 @@ Recommended files/folders for this GitHub submission:
 ```text
 README.md
 .gitignore
+requirements.txt
 Problem_Statement_Final.md
 Olist_EDA_Initial_Report.ipynb
+data/
 outputs/
 ```
 
