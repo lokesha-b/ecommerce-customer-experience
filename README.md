@@ -1,7 +1,5 @@
 # Ecommerce Revenue, Retention, and Customer Experience Optimization
 
-**Author:** L. Gowda
-
 ## Executive Summary
 
 This capstone project analyzes the Brazilian Olist ecommerce dataset to understand the drivers of revenue, retention, delivery performance, and customer satisfaction. The initial EDA shows that revenue is concentrated by customer geography and product category, repeat purchase behavior is low, and late delivery is strongly associated with poor review scores.
