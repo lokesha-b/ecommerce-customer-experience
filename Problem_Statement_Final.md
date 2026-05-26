@@ -98,4 +98,3 @@ The original target impacts remain useful benchmarks, but they should not be pre
 | Improve revenue from pricing/category strategy | 5-10% uplift after testing |
 | Improve customer lifetime value | Higher average value across priority customer segments |
 
-*Prepared for: Capstone Assignment 16.1, Finalizing Your Problem Statement*
